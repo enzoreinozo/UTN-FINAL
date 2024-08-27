@@ -55,3 +55,9 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+/*MEDIA QUERIES*/
+
+@media  {
+    
+}
