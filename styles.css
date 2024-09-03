@@ -19,10 +19,10 @@ body{
 /*SLIDER*/
 .slider{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     transform-style: preserve-3d;
-    animation: rotate 30s linear infinite;
+    animation: rotate 13s linear infinite;
 }
 
 @keyframes rotate{
@@ -39,8 +39,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
@@ -54,11 +54,11 @@ body{
     height: 100%;
     border-radius: 40px;
     object-fit: cover;
-    transition: 1.1s;
+    transition: .1s;
 }
 
 .slider span:hover img{
-    transform: translateY(-50px) scale(1.2);
+    transform: translateY(-20px) scale(1.1);
 }
 /*SLIDER END*/
 
@@ -109,3 +109,6 @@ body{
     width: 100%;
 }
 /*NAV-BAR-END*/
+
+
+/*FOOTER*/
