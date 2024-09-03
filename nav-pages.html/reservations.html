@@ -8,6 +8,8 @@
     <title>Reservations</title>
 </head>
 <body>
+
+    <!--NAV-BAR-->
     <header class="header">
         <a href="/nav-pages.html/reservations.html" class="title">Reservations</a>
 
@@ -20,6 +22,58 @@
             <a href="/nav-pages.html/policy.html" target="_blank">Policy</a>
             
         </nav>
+        <!--NAV BAR END-->
     </header>
+
+    <!--RESRVATIONS-->
+
+    <section class = "banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class = "card-container">
+
+            <div class = "card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "sunday">Sunday</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Hour</option>
+                            <option value = "10">23: 00</option>
+                            <option value = "10">23: 30</option>
+                            <option value = "10">00: 00</option>
+                            <option value = "10">00: 30</option>
+                            <option value = "10">01: 00</option>
+                            <option value = "10">01: 30</option>
+                            <option value = "10">02: 00</option>
+                            <option value = "10">02: 30</option>
+                            <option value = "10">03: 00</option>
+                            <option value = "10">03: 30</option>
+                        </select>
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "text" placeholder="Full Name">
+                        <input type = "text" placeholder="Phone Number">
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "number" placeholder="How Many Persons?" min = "2" max="6">
+                        <input type = "submit" value = "BOOK TABLE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--RESRVATIONS END-->
 </body>
 </html>
