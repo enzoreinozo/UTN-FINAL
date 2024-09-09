@@ -56,3 +56,19 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+.main-card{
+    background: blue;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.boxes{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
