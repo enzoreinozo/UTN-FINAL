@@ -116,7 +116,7 @@ form input[type = text], form input[type = number], form input::placeholder, sel
 
 form input[type = submit]{
     color: #fff;
-    background: #f2745f;
+    background: #766a68;
     padding: 12px 0;
     border-radius: 4px;
     cursor: pointer;

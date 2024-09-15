@@ -108,7 +108,39 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+.fa-solid{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
 /*NAV-BAR-END*/
 
+/*responsive*/
 
-/*FOOTER*/
+@media screen and (max-width: 836px){
+    .header{
+        display: inline-block;
+        justify-content: center;
+        background: red;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a:hover{
+        border-bottom: green;
+        color: blueviolet;
+    }
+
+    .slider{
+        display: none;
+    }
+}

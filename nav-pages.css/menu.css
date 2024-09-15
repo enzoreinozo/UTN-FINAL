@@ -58,17 +58,9 @@ body{
 }
 
 .main-card{
-    background: blue;
-    padding: 15px;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    justify-content: flex-end;
-    text-align: center;
-}
-
-.boxes{
-    height: 100px;
-    width: 100px;
+    background: pink;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 200px;
 }

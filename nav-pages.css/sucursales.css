@@ -55,3 +55,28 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+.main-box{
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    justify-content: center;
+}
+
+.content-1{
+    background-color: green;
+
+}
+
+.content-2{
+    background-color: purple;
+}
+.content-3{
+    background-color: red;
+}
+
+.frontbar{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
